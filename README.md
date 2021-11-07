@@ -26,6 +26,8 @@ vhgvbv
 
 [AlphabetSoupCharity.ipynb file](link+++++++++++++++++++) 
 
+[AlphabetSoupCharity.h5 file](link+++++++++++++++++++) 
+
 #### Deliverable 3
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
@@ -57,6 +59,19 @@ The model is optimized, and the predictive accuracy is increased to over 75%, or
 
 
 ## Results
+
+3-
+Optimize your model in order to achieve a target predictive accuracy higher than 75% by using any or all of the following:
+
+Adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as:
+Dropping more or fewer columns.
+Creating more bins for rare occurrences in columns.
+Increasing or decreasing the number of values for each bin.
+Adding more neurons to a hidden layer.
+Adding more hidden layers.
+Using different activation functions for the hidden layers.
+Adding or reducing the number of epochs to the training regimen.
+
 
 
 <p align="center">
