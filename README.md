@@ -180,6 +180,20 @@ Optimize your model in order to achieve a target predictive accuracy higher than
 </kbd>  &nbsp;
 </p>
 
+- Other models - Logistic Regression
+
+<kbd>
+  <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Logistic%20Regression.png">
+</kbd>  &nbsp;
+</p>
+
+- Other models - Random Forest
+
+<kbd>
+  <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Random%20Forest.png">
+</kbd>  &nbsp;
+</p>
+
 
 Many manipulations were made in order to comprehend how the different settings could affect the model's accuracy. The best result was found using the following settings:
 - batch_size = 32 
@@ -204,7 +218,21 @@ Accuracy was improved, but not significantly, model was not able to predict with
 
 ## Summary
 
+While adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model many results were generated. The first approach was to simplify the columns, filter the active status organizations (big majority) and categorize the income amount column into with or without income. 
+ 
+<kbd>
+  <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Simplifyed%20accuracy.png">
+</kbd>  &nbsp;
+</p>
+
+The result was a very low accuracy, that surprisingly was not caused by the manipulation done on the income column, but actually on the status columns. 
+
+<kbd>
+  <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Status%20count.png">
+</kbd>  &nbsp;
+</p>
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
+75% can be considered an educated guess, but more needs to be done to create a prediction model. Looking 
 
