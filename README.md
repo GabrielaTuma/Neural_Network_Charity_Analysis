@@ -40,7 +40,7 @@ From Alphabet Soup’s business team, a CSV containing more than 34,000 organiza
 
 [AlphabetSoupCharity.ipynb file](https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/AlphabetSoupCharity.ipynb) 
 
-[AlphabetSoupCharity_Optimization.h5 file](https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/tree/main/AlphabetSoupCharity_Optimization.h5) 
+[AlphabetSoupCharity.h5 file](https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/tree/main/AlphabetSoupCharity.h5)  
 
 #### Deliverable 3
 
@@ -54,7 +54,7 @@ The model is optimized, and the predictive accuracy is increased to over 75%, or
 
 [AlphabetSoupCharity_Optimzation.ipynb file](https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/AlphabetSoupCharity_Optimzation.ipynb) 
 
-[AlphabetSoupCharity.h5 file](https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/tree/main/AlphabetSoupCharity.h5) 
+[AlphabetSoupCharity_Optimization.h5 file](https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/tree/main/AlphabetSoupCharity_Optimization.h5)
 
 
 #### Deliverable 4
@@ -152,11 +152,6 @@ Optimize your model in order to achieve a target predictive accuracy higher than
 </kbd>  &nbsp;
 </p>
 
-<kbd>
-  <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Simplifyed%20accuracy.png">
-</kbd>  &nbsp;
-</p>
-
 
 - Adding more neurons to a hidden layer
 
@@ -220,19 +215,19 @@ Accuracy was improved, but not significantly, model was not able to predict with
 
 While adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model many results were generated. The first approach was to simplify the columns, filter the active status organizations (big majority) and categorize the income amount column into with or without income. 
  
+
+The result was a very low accuracy, that surprisingly was not caused by the manipulation done on the income column, but actually on the status columns. 
+
 <kbd>
   <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Simplifyed%20accuracy.png">
 </kbd>  &nbsp;
 </p>
 
-The result was a very low accuracy, that surprisingly was not caused by the manipulation done on the income column, but actually on the status columns. 
+The best result found was 73%, that accuracy can be considered an educated guess, more needs to be done to create a reliable prediction model. Looking at the results it seems like the data is not enough, maybe we can achieve 75% accuracy with some extra manipulation, but without **more data, or even more information about the giving data**, the model will not be reliable when predicting whether applicants will be successful or not.
+
+Also, some digging needs to be done when it comes to the Status column, why only 5 rows can have such a big impact?
 
 <kbd>
   <img src="https://github.com/GabrielaTuma/Neural_Network_Charity_Analysis/blob/2f97af0c9f8c9eb18d119e55af8e582d59d75a27/Resources/Images%20/Status%20count.png">
 </kbd>  &nbsp;
 </p>
-
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-
-75% can be considered an educated guess, but more needs to be done to create a prediction model. Looking 
-
